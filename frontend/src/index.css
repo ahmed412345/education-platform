@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "ReadexPro";
+    src: url("./assets/fonts/ReadexPro.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/fonts/Montserrat.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "NotoSansJP";
+    src: url("./assets/fonts/NotoSansJP.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@theme {
+    /*light colors*/
+    --color-sakura-pink: #ffb7c5;
+    --color-deep-pink: #d85a7f;
+    --color-off-white: #fafafa;
+    --color-stone: #2d2d2d;
+
+    /*dark color*/
+    --color-night-sakura: #1b211a;
+    --color-plum-dark: #f16d34;
+    --color-petal-glow: #ffe4e9;
+
+    --color-dash-outline: #4b2c5e;
+
+    /*fonts*/
+    --font-main: "ReadexPro", "Montserrat", sans-serif;
+    --font-japan: "NotoSansJP", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.no-scroll {
+    overflow: hidden;
+    height: 100vh;
+}
+
+/*الدارك والوايت مود*/
+@custom-variant dark (&:where(.dark, .dark *));
+
+html,
+body {
+    overflow-x: hidden !important;
+    position: relative;
+}
