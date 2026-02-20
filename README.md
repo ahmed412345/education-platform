@@ -2,22 +2,6 @@
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=google-chrome)](https://noura.sbs/)
 
-## 🔐 Demo Accounts
-
-To explore the platform without registration, you can use the following test accounts:
-
-#### 👨‍💼 Admin Access (To view Dashboard & Management)
-
-- **Email:** `admintest@noura.sbs`
-- **Password:** `admin123456`
-
-#### 🎓 Student Access (To view Courses & Learning)
-
-- **Email:** `studenttest@noura.sbs`
-- **Password:** `student123456`
-
-> **Note:** Please do not delete existing data so others can test the platform.
-
 A comprehensive, full-stack online education platform built with modern technologies. This platform allows users to learn from curated courses, watch video lessons, access learning materials, and admins to manage the entire ecosystem.
 
 ---
